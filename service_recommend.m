@@ -4,7 +4,7 @@ clear all;
 rng('default');
 
 %% step1. load groundtruth data
-tpMatrix = load('/Users/rui/PycharmProjects/webservice-core/dataset2/tpMatrix');
+tpMatrix = load('./tpMatrix');
 % usermatrix = load('/Users/rui/PycharmProjects/webservice-core/dataset2/tpMatrix');
 
 %% step2. form sparse data with sparse_rate
